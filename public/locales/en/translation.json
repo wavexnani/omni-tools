@@ -168,7 +168,8 @@
   },
   "resultFooter": {
     "copy": "Copy to clipboard",
-    "download": "Download"
+    "download": "Download",
+    "forward": "Next Operation"
   },
   "string": {
     "createPalindrome": {
