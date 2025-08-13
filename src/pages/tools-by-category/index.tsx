@@ -11,10 +11,7 @@ import Typography from '@mui/material/Typography';
 import { Link, useNavigate, useParams } from 'react-router-dom';
 import { filterTools, getToolsByCategory } from '../../tools';
 import Hero from 'components/Hero';
-import {
-  getI18nNamespaceFromToolCategory,
-  getToolCategoryTitle
-} from '@utils/string';
+import { getToolCategoryTitle } from '@utils/string';
 import { Icon } from '@iconify/react';
 import { categoriesColors } from 'config/uiConfig';
 import React, { useEffect } from 'react';
@@ -24,7 +21,7 @@ import SearchIcon from '@mui/icons-material/Search';
 import { Helmet } from 'react-helmet';
 import UserTypeFilter from '@components/UserTypeFilter';
 import { useTranslation } from 'react-i18next';
-import { I18nNamespaces, validNamespaces } from '../../i18n';
+import { validNamespaces } from '../../i18n';
 import { useUserTypeFilter } from '../../providers/UserTypeFilterProvider';
 
 const StyledLink = styled(Link)(({ theme }) => ({
